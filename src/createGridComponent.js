@@ -511,11 +511,13 @@ export default function createGridComponent({
             className:
               stickyClassNamePrefix && `${stickyClassNamePrefix}-column`,
             style: {
-              height: estimatedTotalHeight,
-              width: topLeftStyle.width,
+              height: 'estimatedTotalHeight',
+              width: 'topLeftStyle.width',
               position: '-webkit-sticky',
-              position: 'sticky',
-
+              position: '-moz-sticky',
+              position: '-ms-sticky',
+              position: '-o-sticky',
+              // position: 'sticky',
               left: 0,
               zIndex: 1,
               transform: `translateY(-${topLeftStyle.height}px)`,
@@ -535,8 +537,13 @@ export default function createGridComponent({
             style: {
               height: topLeftStyle.height,
               width: estimatedTotalWidth,
+              height: 'estimatedTotalHeight',
+              width: 'topLeftStyle.width',
               position: '-webkit-sticky',
-              position: 'sticky',
+              position: '-moz-sticky',
+              position: '-ms-sticky',
+              position: '-o-sticky',
+              // position: 'sticky',
               top: 0,
               zIndex: 1,
             },

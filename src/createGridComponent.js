@@ -513,8 +513,8 @@ export default function createGridComponent({
             style: {
               height: estimatedTotalHeight,
               width: topLeftStyle.width,
-              position: 'sticky',
               position: '-webkit-sticky',
+              position: 'sticky',
 
               left: 0,
               zIndex: 1,
@@ -535,8 +535,8 @@ export default function createGridComponent({
             style: {
               height: topLeftStyle.height,
               width: estimatedTotalWidth,
-              position: 'sticky',
               position: '-webkit-sticky',
+              position: 'sticky',
               top: 0,
               zIndex: 1,
             },

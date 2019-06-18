@@ -514,6 +514,8 @@ export default function createGridComponent({
               height: estimatedTotalHeight,
               width: topLeftStyle.width,
               position: 'sticky',
+              position: '-webkit-sticky';
+
               left: 0,
               zIndex: 1,
               transform: `translateY(-${topLeftStyle.height}px)`,
@@ -534,6 +536,7 @@ export default function createGridComponent({
               height: topLeftStyle.height,
               width: estimatedTotalWidth,
               position: 'sticky',
+              position: '-webkit-sticky';
               top: 0,
               zIndex: 1,
             },

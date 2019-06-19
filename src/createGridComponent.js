@@ -511,8 +511,8 @@ export default function createGridComponent({
             className:
               stickyClassNamePrefix && `${stickyClassNamePrefix}-column`,
             style: {
-              height: 'estimatedTotalHeight',
-              width: 'topLeftStyle.width',
+              height: estimatedTotalHeight,
+              width: topLeftStyle.width,
               position: 'sticky',
               // position: '-webkit-sticky',
               left: 0,
@@ -534,8 +534,6 @@ export default function createGridComponent({
             style: {
               height: topLeftStyle.height,
               width: estimatedTotalWidth,
-              height: 'estimatedTotalHeight',
-              width: 'topLeftStyle.width',
               position: 'sticky',
               // position: '-webkit-sticky',
               top: 0,

@@ -1,5 +1,5 @@
 {
-  "name": "react-window",
+  "name": "react-window-sticky",
   "version": "1.8.2",
   "description": "React components for efficiently rendering large, scrollable lists and tabular data",
   "author": "Brian Vaughn <brian.david.vaughn@gmail.com> (https://github.com/bvaughn/)",
